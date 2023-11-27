@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit_life + Calculadora</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="images/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <section class="knowledge">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="subtitle">Qué es el IMC y cómo interpretarlo</h2>
+                <p class="knowledge__paragraph">El índice de masa corporal (IMC) es un indicador empleado para determinar si el peso de una persona es saludable de acuerdo con la altura que posee. Es empleado por profesionales de la salud y personas comunes para evaluar el estado nutricional en que se encuentra una persona, estableciendo si ésta se encuentra bajo peso, normal, con sobrepeso u obesidad.</p>
+            </div>
+
+            <figure class="knowledge__picture">
+                <img src="./images/Bascula.png" class="knowledge__img">
+            </figure>
+        </section>
+        
+    <main>
+
+        <section class="container about">
+            <h2 class="subtitle">índice de masa corporal y circunferencia de la cintura</h2>
+            <p class="about__paragraph">indicadores importantes para tu desarrollo personal</p>
+
+            <div class="about__main">
+        
+        
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">IMC</h2>
+                    <p class="knowledge__paragraph">¿Conoces en qué categoría estás?</p>
+                        <figure class="knowledge__picture">
+                            <img src="./images/tabla.png" class="knowledge__img">
+                        </figure>
+                        <h2 class="subtitle">Calcula tu IMC y ICI circunferencia de la cintura ideal</h2>
+                        <p class="knowledge__paragraph">El  índice de masa corporal (IMC) no es un indicador preciso de la salud porque no tiene en cuenta el porcentaje ni la distribución de la grasa corporal.
+                            Mediciones más precisas que el IMC para predecir resultados de salud incluyen la circunferencia de la cintura. Descarga nuestra app para aprovechar al máximo estos indicadores en tu desarrollo personal.</p>
+                    <a href="./trabjando.html" class="cta">Descargar</a>
+                </div>
+                <div class="container">
+
+        
+
+                    <h1>Calculadora de IMC</h1>
+                    
+                    <div>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" placeholder="Ingrese su nombre completo">
+                    </div>
+                    <div>
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" placeholder="Ingrese su edad">
+                    </div>
+                    <div>
+                        <label for="sexo">Sexo:</label>
+                        <select id="sexo">
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="altura">Altura (cm):</label>
+                        <input type="number" id="altura" placeholder="Ingrese altura">
+                    </div>
+                    <div>
+                        <label for="peso">Peso (kg):</label>
+                        <input type="number" id="peso" placeholder="Ingrese peso">
+                    </div>
+                    <button onclick="calcularIMC()">Calcular IMC</button>
+                    <div id="resultado"></div>
+                    <div id="resultado2"></div>
+                  
+                </div>
+                <script src="./js/script.js"></script>
+
+                
+
+                <div class="container">
+                    
+                    <h1>Calculadora de ICI</h1>
+                    
+                        
+                    <div>
+                        <label for="cintura">Cintura:</label>
+                        <select id="cintura">
+                            <option value="normal">normal</option>
+                            <option value="buena">buena</option>
+                            <option value="ideal">ideal</option>
+                        </select>
+                    </div>
+                    
+                    <button onclick="calcularICI()">Calcular ICI</button>
+                    <div id="resultado3"></div>
+                    <div id="resultado4"></div>
+                    
+                  
+        
+                    <script src="./js/script.js"></script>
+                
+                </div>
+
+                
+            </div>
+            
+            
+ 
+        </div>
+
+        
+        </section>
+            
+            
+            
+    
+    </main>
+    
+</body>
+</html>
